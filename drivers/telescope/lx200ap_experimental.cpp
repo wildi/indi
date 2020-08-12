@@ -223,7 +223,7 @@ bool LX200AstroPhysicsExperimental::updateProperties()
 
     if (isConnected())
     {
-        deleteProperty("TELESCOPE_PIER_SIDE");
+        //deleteProperty("TELESCOPE_PIER_SIDE");
         if (firmwareVersion < MCV_G)
         {
             deleteProperty(UsePulseCmdSP.name);
